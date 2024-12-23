@@ -1,6 +1,8 @@
 # reconocimiento
 
 this project do recognize gestures, keys that pressed and voices
+https://reconocimientomtp.netlify.app/
+Deploy
 
 ## Recommended IDE Setup
 
