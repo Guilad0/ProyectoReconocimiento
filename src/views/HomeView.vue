@@ -11,10 +11,10 @@
 </template>
 
 <script setup>
-import Keyboard from "./Keyboard.vue";
-import MicView from "./micView.vue";
-import MouseView from "./MouseView.vue";
-import GesturesView from "./GesturesView.vue";
+import Keyboard from "../components/Keyboard.vue";
+import MicView from "../components/micView.vue";
+import MouseView from "../components/MouseView.vue";
+import GesturesView from "../components/GesturesView.vue";
 </script>
 
 <style>

@@ -1,26 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Keyboard from '@/views/Keyboard.vue'
-import HomeViewy from '@/views/HomeView.vue'
+import HomeView from '@/views/HomeView.vue'
 
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/teclado',
-      name: 'teclado',
-      component: Keyboard
-    },
-    {
       path: '/',
       name: 'home',
-      component: HomeViewy
-    },
-    {
-      path: '/mic',
-      name: 'mic',
-      component: () => import('../views/micView.vue')
-
+      component: HomeView
     }
     // {
     //   path: '/about',
